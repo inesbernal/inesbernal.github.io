@@ -1,0 +1,69 @@
+body{
+    background-color: #beb5d1;
+    background-image: url("https://inesbernal.com/wp-content/uploads/2021/08/fondonuievaweb.png");
+    background-size: cover; /* Adjust to your preference */
+    background-repeat: no-repeat;
+    color: rgb(63, 59, 67);
+    margin: 0;
+    padding: 4%;
+    max-width: 1200 px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    font-size: 40px;
+    text-align: center;
+    padding: 60px;
+    color: rgb(94, 68, 108);
+
+}
+
+strong{
+    font-weight: 500;
+}
+
+a{
+    color: #3a5adc
+
+}
+
+em{
+    color: aquamarine;
+}
+
+#tudelft, /* this is called ID, but generally is not used, bc its very specific*/
+#mit {
+    font-size: 40px;
+}
+
+.university { /* this is a class */
+    color:rgb(160, 229, 91);
+    
+}
+
+.picture-column{
+    background-color: #ffc0cb3d;
+    padding: 30px;
+}
+
+.information-column{
+    background-color: #adff2f3d;
+    padding: 30px;
+}
+
+.grid-container{
+    display:grid;
+    /*
+    grid-template-columns: auto auto; 
+    /*property that tell you for a grid how many columns to have, each auto is a column
+    auto means that the width of the column is auto*/
+
+    grid-template-columns: 1fr 2fr; /* equal fractions in the page ß*/
+    column-gap: 20px;
+}
+
+.blur-effect {
+    filter: blur(1px);
+  }
